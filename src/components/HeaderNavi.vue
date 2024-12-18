@@ -14,8 +14,19 @@ import MainMenu from './MainMenu.vue';
 .Navi {
     display: flex;
     width: auto;
-    padding: 10px 40px;
+    padding: 10px 20px;
     justify-content: space-between;
     align-items: center;
+}
+@media screen and (max-width: 800px) {
+    .Navi {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: auto;
+        padding: 10px 20px;
+        justify-content: space-between;
+        align-items: center;
+    }
 }
 </style>

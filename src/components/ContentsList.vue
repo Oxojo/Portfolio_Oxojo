@@ -21,4 +21,15 @@ import ArticlesContent from './ArticlesContent.vue';
     align-items: flex-start;
     gap: 64px;
 }
+
+@media screen and (max-width: 800px) {
+    .ContentsList {
+        margin-top: 60px;
+        padding: 0 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
 </style>
