@@ -9,9 +9,8 @@
 <style>
 .Menu {
     display: flex;
-    width: 283px;
-    align-items: center;
     gap: 40px;
+    align-items: center;
     flex-shrink: 0;
 }
 .Contents {
