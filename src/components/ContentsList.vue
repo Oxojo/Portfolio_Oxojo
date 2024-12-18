@@ -15,6 +15,7 @@ import ArticlesContent from './ArticlesContent.vue';
 <style>
 .ContentsList {
     margin-top: 60px;
+    padding: 0 40px;
     display: flex;
     justify-content: center;
     align-items: flex-start;
