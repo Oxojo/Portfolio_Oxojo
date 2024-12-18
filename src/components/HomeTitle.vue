@@ -12,6 +12,7 @@
 
 <style>
 .Title {
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
