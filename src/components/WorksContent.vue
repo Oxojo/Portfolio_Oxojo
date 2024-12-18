@@ -6,8 +6,8 @@
     <div class="Content">
         <WorksIcon />
         <div class="sentenses">
-            <div class="title">About Me</div>
-            <div class="detail">Oxojo に関する詳しい情報はこちら.</div>
+            <div class="title">Works</div>
+            <div class="detail">今までに製作した作品や, 参加したプロジェクトなどをまとめました.</div>
         </div>
     </div>
 </template>

@@ -6,8 +6,8 @@
     <div class="Content">
         <ArticlesIcon />
         <div class="sentenses">
-            <div class="title">About Me</div>
-            <div class="detail">Oxojo に関する詳しい情報はこちら.</div>
+            <div class="title">Articles</div>
+            <div class="detail">各種ブログサイトに掲載されている, Oxojo が書いた記事をまとめました.</div>
         </div>
     </div>
 </template>
