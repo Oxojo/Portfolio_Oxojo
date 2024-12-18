@@ -1,4 +1,2 @@
-module.exports = {
-    outputDir: 'docs',
-    publicPath: './'
-}
+export const outputDir = 'docs';
+export const publicPath = './';
