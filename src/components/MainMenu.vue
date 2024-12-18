@@ -9,7 +9,7 @@
 <style>
 .Menu {
     display: flex;
-    gap: 40px;
+    gap: 20px;
     align-items: center;
     flex-shrink: 0;
 }
@@ -20,5 +20,6 @@
     font-style: normal;
     font-weight: 400;
     line-height: 160%;
+    padding: 10px 5px;
 }
 </style>
