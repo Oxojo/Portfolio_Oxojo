@@ -12,10 +12,10 @@
 
 <style>
 .Title {
-    margin-top: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 30px;
 }
 </style>
