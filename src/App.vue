@@ -1,5 +1,6 @@
 <script setup>
 import HeaderNavi from './components/HeaderNavi.vue';
+import HomeTitle from './components/HomeTitle.vue';
 </script>
 
 <template>
@@ -8,7 +9,7 @@ import HeaderNavi from './components/HeaderNavi.vue';
   </header>
 
   <main>
-    
+    <HomeTitle />
   </main>
 </template>
 
