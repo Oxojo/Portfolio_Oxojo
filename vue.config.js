@@ -1,2 +1,2 @@
-export const outputDir = './docs';
+export const outputDir = '../docs';
 export const publicPath = './';
