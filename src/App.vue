@@ -9,10 +9,14 @@ import TopPage from './TopPage.vue';
   </header>
 
   <main>
-    <TopPage />
+    <div class="Component">
+      <TopPage />
+    </div>
   </main>
 </template>
 
 <style scoped>
-
+.Component {
+  margin: 50px 0;
+}
 </style>
