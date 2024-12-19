@@ -1,7 +1,6 @@
 <script setup>
 import HeaderNavi from './components/HeaderNavi.vue';
-import HomeTitle from './components/HomeTitle.vue';
-import ContentsList from './components/ContentsList.vue';
+import TopPage from './TopPage.vue';
 </script>
 
 <template>
@@ -10,8 +9,7 @@ import ContentsList from './components/ContentsList.vue';
   </header>
 
   <main>
-    <HomeTitle />
-    <ContentsList />
+    <TopPage />
   </main>
 </template>
 
