@@ -14,10 +14,26 @@ import TopPage from './TopPage.vue';
       <TopPage />
     </div>
   </main>
+
+  <footer>
+    (C) 2024 Oxojo
+  </footer>
 </template>
 
 <style scoped>
 .Component {
   margin: 50px 0;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 10px 10px;
+  width: auto;
+  align-items: right;
+
+  color: #000;
+  font-family: "Inria Sans";
+  font-size: 16px;
 }
 </style>
