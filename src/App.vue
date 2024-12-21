@@ -1,6 +1,7 @@
 <script setup>
 import HeaderNavi from './components/HeaderNavi.vue';
-import TopPage from './TopPage.vue';
+//import TopPage from './TopPage.vue';
+import ArticlesPage from './ArticlesPage.vue';
 </script>
 
 <template>
@@ -10,7 +11,7 @@ import TopPage from './TopPage.vue';
 
   <main>
     <div class="Component">
-      <TopPage />
+      <ArticlesPage />
     </div>
   </main>
 </template>
