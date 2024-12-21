@@ -1,8 +1,9 @@
 <script setup>
 import HeaderNavi from './components/HeaderNavi.vue';
-//import TopPage from './TopPage.vue';
-//import ArticlesPage from './ArticlesPage.vue';
+import TopPage from './TopPage.vue';
+import ArticlesPage from './ArticlesPage.vue';
 import ComingSoonPage from './ComingSoonPage.vue';
+import { RouterView } from "vue-router"
 </script>
   
 <template>
@@ -12,7 +13,7 @@ import ComingSoonPage from './ComingSoonPage.vue';
 
   <main>
     <div class="Component">
-      <ComingSoonPage />
+      <router-view />
     </div>
   </main>
 

@@ -1,8 +1,8 @@
 <template>
     <div class="Menu">
-        <div class="Contents">About Me</div>
-        <div class="Contents">Works</div>
-        <div class="Contents">Articles</div>
+        <router-link to="/comingsoon"><div class="Contents">About Me</div></router-link>
+        <router-link to="/comingsoon"><div class="Contents">Works</div></router-link>
+        <router-link to="/comingsoon"><div class="Contents">Articles</div></router-link>
     </div>
 </template>
 
