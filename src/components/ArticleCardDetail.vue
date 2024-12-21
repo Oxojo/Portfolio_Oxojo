@@ -26,7 +26,7 @@ export default {
 <style>
 .Detail {
     display: flex;
-    width: 300px;
+    width: 260px;
     height: 80px;
     padding: 10px 20px;
     flex-direction: column;
