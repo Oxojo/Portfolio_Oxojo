@@ -1,7 +1,15 @@
+<script>
+export default {
+    props: {
+        date: String
+    }
+};
+</script>
+
 <template>
     <div class="Date">
         <img class="Date_icon" src="../../15335_line.png" alt="">
-        <div class="Date_text">yyyy-mm-dd</div>
+        <div class="Date_text">{{ date }}</div>
     </div>
 </template>
 

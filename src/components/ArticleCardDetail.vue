@@ -1,13 +1,25 @@
-<script setup>
+<script>
 import ArticleCardDate from './ArticleCardDate.vue';
 import ArticleCardSite from './ArticleCardSite.vue';
+
+export default {
+    components: {
+        ArticleCardDate,
+        ArticleCardSite
+    },
+    props: {
+        title: String,
+        date: String,
+        link: String
+    }
+};
 </script>
 
 <template>
     <div class="Detail">
-        <div class="Title_text">Title</div>
-        <ArticleCardDate />
-        <ArticleCardSite />
+        <div class="Title_text">{{ title }}</div>
+        <ArticleCardDate :date="date" />
+        <ArticleCardSite :link="link" />
     </div>
 </template>
 

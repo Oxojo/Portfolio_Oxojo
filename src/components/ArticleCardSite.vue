@@ -1,7 +1,15 @@
+<script>
+export default {
+    props: {
+        link: String
+    }
+};
+</script>
+
 <template>
     <div class="Date">
         <img class="Date_icon" src="../../17989_line.png" alt="">
-        <div class="Date_text">example.com</div>
+        <div class="Date_text">{{ link }}</div>
     </div>
 </template>
 
