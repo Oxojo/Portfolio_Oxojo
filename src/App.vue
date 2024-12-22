@@ -1,11 +1,5 @@
-<script>
+<script setup>
 import HeaderNavi from './components/HeaderNavi.vue';
-
-export default {
-  Component: {
-    HeaderNavi
-  }
-}
 </script>
   
 <template>
