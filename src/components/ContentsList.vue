@@ -6,9 +6,9 @@ import ArticlesContent from './ArticlesContent.vue';
 
 <template>
     <div class="ContentsList">
-        <AboutMeContent />
-        <WorksContent />
-        <ArticlesContent />
+        <router-link to="/comingsoon" class="Link"><AboutMeContent /></router-link>
+        <router-link to="/comingsoon" class="Link"><WorksContent /></router-link>
+        <router-link to="/comingsoon" class="Link"><ArticlesContent /></router-link>
     </div>
 </template>
 
