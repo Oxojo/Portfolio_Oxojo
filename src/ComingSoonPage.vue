@@ -12,10 +12,13 @@
     font-style: bold;
     font-weight: 700;
     line-height: 160%;
+    text-align: center;
 }
 .Coming {
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 </style>
