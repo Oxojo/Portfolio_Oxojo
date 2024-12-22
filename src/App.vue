@@ -1,5 +1,21 @@
-<script setup>
+<script>
 import HeaderNavi from './components/HeaderNavi.vue';
+
+export default {
+  Component: {
+    HeaderNavi
+  },
+  methods: {
+    QueryIs: function(){
+      if(this.$route.query.p !== undefined){
+        this.$router.push('/' + this.$route.query.p)
+      }
+    },
+  },
+  mounted(){
+    this.QueryIs();
+  },
+}
 </script>
   
 <template>
