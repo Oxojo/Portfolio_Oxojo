@@ -24,7 +24,6 @@ import HeaderNavi from './components/HeaderNavi.vue';
 }
 footer {
   position: absolute;
-  bottom: 0;
   right: 0;
   padding: 10px 10px;
   width: auto;
