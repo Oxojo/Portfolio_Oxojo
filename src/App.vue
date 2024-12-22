@@ -1,14 +1,17 @@
 <script setup>
-import HeaderNavi from './components/HeaderNavi.vue';
-import TopPage from './TopPage.vue';
-import ArticlesPage from './ArticlesPage.vue';
-import ComingSoonPage from './ComingSoonPage.vue';
-import { RouterView } from "vue-router"
+import HomeLink from './components/HomeLink.vue';
 </script>
   
 <template>
   <header>
-    <HeaderNavi />
+    <div class="Navi">
+            <router-link to="/"><HomeLink /></router-link>
+            <div class="Menu">
+              <div class="Contents"><router-link to="/comingsoon">About Me</router-link></div>
+              <div class="Contents"><router-link to="/comingsoon">Works</router-link></div>
+              <div class="Contents"><router-link to="/comingsoon">Articles</router-link></div>  
+            </div>
+        </div>
   </header>
 
   <main>
@@ -37,5 +40,38 @@ footer {
   color: #000;
   font-family: "Inria Sans";
   font-size: 16px;
+}
+.Navi {
+    display: flex;
+    width: auto;
+    padding: 10px 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+@media screen and (max-width: 800px) {
+    .Navi {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: auto;
+        padding: 10px 20px;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+.Menu {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    flex-shrink: 0;
+}
+.Contents {
+    color: #000;
+    font-family: "Inria Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    padding: 10px 5px;
 }
 </style>
