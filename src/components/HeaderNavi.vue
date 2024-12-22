@@ -4,7 +4,7 @@ import HomeLink from './HomeLink.vue';
 
 <template>
         <div class="Navi">
-            <HomeLink />
+            <router-link to="/" class="Link"><HomeLink /></router-link>
             <div class="Menu">
                 <router-link to="/comingsoon" class="Contents">About Me</router-link>
                 <router-link to="/comingsoon" class="Contents">Works</router-link>
@@ -39,6 +39,7 @@ import HomeLink from './HomeLink.vue';
     flex-shrink: 0;
 }
 .Contents {
+    text-decoration: none;
     color: #000;
     font-family: "Inria Sans";
     font-size: 18px;
@@ -46,5 +47,8 @@ import HomeLink from './HomeLink.vue';
     font-weight: 400;
     line-height: 160%;
     padding: 10px 5px;
+}
+.Link {
+    text-decoration: none;
 }
 </style>

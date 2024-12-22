@@ -7,7 +7,7 @@
 <style>
 .ComingSoon {
     color: #D9A90E;
-    font-family: 64px;
+    font-size: 64px;
     font-family: "Inria Sans";
     font-style: bold;
     font-weight: 700;

@@ -1,17 +1,10 @@
 <script setup>
-import HomeLink from './components/HomeLink.vue';
+import HeaderNavi from './components/HeaderNavi.vue';
 </script>
   
 <template>
   <header>
-    <div class="Navi">
-            <router-link to="/"><HomeLink /></router-link>
-            <div class="Menu">
-              <div class="Contents"><router-link to="/comingsoon">About Me</router-link></div>
-              <div class="Contents"><router-link to="/comingsoon">Works</router-link></div>
-              <div class="Contents"><router-link to="/comingsoon">Articles</router-link></div>  
-            </div>
-        </div>
+    <HeaderNavi />
   </header>
 
   <main>
@@ -66,6 +59,7 @@ footer {
     flex-shrink: 0;
 }
 .Contents {
+  text-decoration: none;
     color: #000;
     font-family: "Inria Sans";
     font-size: 18px;
