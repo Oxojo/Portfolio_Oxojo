@@ -5,6 +5,7 @@
 // date は published_at から (すこし工夫が必要？)
 // link は trap.jp
 import ArticleCard from './components/ArticleCard.vue';
+import axios from 'axios'
 
 export default {
     components: {
@@ -12,14 +13,33 @@ export default {
     },
     data() {
         return {
-            items: [
-                {imate_url: "../Oxojo_icon.png", title: "Test1", date: "1111-11-11", link: "example.com"},
-                {imate_url: "../Oxojo_icon.png", title: "Test2", date: "2222-22-22", link: "example.com"},
-                {imate_url: "../Oxojo_icon.png", title: "Test3", date: "3333-33-33", link: "example.com"},
-                {imate_url: "../Oxojo_icon.png", title: "Test4", date: "4444-44-44", link: "example.com"}
-            ]
+            items: [],
+            loading: true,
+            error: null
+        };
+    },
+    created() {
+        this.fetchData();
+    }   ,
+    methods: {
+        async fetchData() {
+            try {
+                const response = await axios.get('https://blog-admin.trap.jp/ghost/api/admin/posts/?filter=authors.name:oxojo%2Bstatus:published');
+                this.items = response.data.posts.map(post => (
+                    {
+                        image_url: post.feature_image,
+                        title: post.title,
+                        date: post.published_at,
+                        link: "trap.jp"
+                    }
+                ));
+            } catch (err) {
+                this.error = err.message;
+            } finally {
+                this.loading = false;
+            }
         }
-    }   
+    }
 };
 </script>
 
