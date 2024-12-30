@@ -32,18 +32,10 @@
                 </div>
             </a>
             <div class="ContentDetail">
-                [ Competitive Programming ] <br>
-                AtCoder Cyan <br>
-                Codeforces Specialist (Highest : Expert) <br>
-                [ DTM ] <br>
-                Drum & Bass, House, Trance <br>
-                Acoustic (Piano) <br>
-                [ Web ] <br>
-                Frontend - HTML, CSS, JavaScript (Framework : Vue.js) <br>
-                Backend - Go <br>
-                [ Graphics ] <br>
-                Design (Figma) <br>
-                Pixel Art <br>
+                Competitive Programming <br>
+                DTM <br>
+                Web Development <br>
+                Graphics <br>
             </div>
         </div>
     </div>
