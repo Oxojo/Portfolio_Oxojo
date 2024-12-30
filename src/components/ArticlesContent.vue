@@ -6,7 +6,7 @@
     <div class="Content">
         <ArticlesIcon />
         <div class="sentenses">
-            <div class="title">Articles</div>
+            Articles
         </div>
     </div>
 </template>
@@ -19,14 +19,14 @@
     align-items: center;
     gap: 24px;
 }
+
 .sentenses {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 16px;
     align-self: stretch;
-}
-.title {
+    
     color: #000;
     text-align: center;
     font-family: "Inria Sans";

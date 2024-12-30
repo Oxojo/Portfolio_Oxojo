@@ -6,7 +6,7 @@
     <div class="Content">
         <AboutMeIcon />
         <div class="sentenses">
-            <div class="title">About Me</div>
+            About Me
         </div>
     </div>
 </template>
@@ -25,8 +25,7 @@
     align-items: center;
     gap: 16px;
     align-self: stretch;
-}
-.title {
+    
     color: #000;
     text-align: center;
     font-family: "Inria Sans";
