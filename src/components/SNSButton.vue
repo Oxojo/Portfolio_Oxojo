@@ -9,7 +9,7 @@ export default {
 </script>
 
 <template>
-    <a :href="Link">
+    <a :href="Link" target="_blank">
         <div class="Button">
             <div class="details">
                 <img :src="Logo_url" alt="">
