@@ -7,7 +7,6 @@
         <WorksIcon />
         <div class="sentenses">
             <div class="title">Works</div>
-            <div class="detail">今までに製作した作品や, 参加したプロジェクトなどをまとめました.</div>
         </div>
     </div>
 </template>
@@ -35,14 +34,5 @@
     font-style: normal;
     font-weight: 700;
     line-height: 160%; 
-}
-.detail {
-    color: #000;
-    text-align: center;
-    font-family: "Inria Sans";
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 160%;
 }
 </style>

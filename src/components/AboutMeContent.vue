@@ -7,7 +7,6 @@
         <AboutMeIcon />
         <div class="sentenses">
             <div class="title">About Me</div>
-            <div class="detail">Oxojo に関する詳しい情報はこちら.</div>
         </div>
     </div>
 </template>
@@ -35,14 +34,5 @@
     font-style: normal;
     font-weight: 700;
     line-height: 160%; 
-}
-.detail {
-    color: #000;
-    text-align: center;
-    font-family: "Inria Sans";
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 160%;
 }
 </style>
