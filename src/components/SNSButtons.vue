@@ -8,8 +8,8 @@ export default {
     data() {
         return {
             items: [
-                { url: "./X_Black.png", text: "X : @Oxojo_" },
-                { url: "./GitHub_Black.png", text: "GitHub : @Oxojo" }
+                { Link: "https://twitter.com/Oxojo_", url: "./X_Black.png", text: "X : @Oxojo_" },
+                { Link: "https://github.com/Oxojo", url: "./GitHub_Black.png", text: "GitHub : @Oxojo" }
             ]
         }
     }
@@ -20,6 +20,7 @@ export default {
         <SNSButton
             v-for="(item, index) in items"
             :key="index"
+            :Link="item.Link"
             :Logo_url="item.url"
             :Text="item.text"
          />

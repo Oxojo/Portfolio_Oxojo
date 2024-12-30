@@ -1,6 +1,7 @@
 <script>
 export default {
     props: {
+        Link: String,
         Logo_url: String,
         Text: String
     }
@@ -8,12 +9,14 @@ export default {
 </script>
 
 <template>
-    <div class="Button">
-        <div class="details">
-            <img :src="Logo_url" alt="">
-            <div class="text">{{ Text }}</div>
+    <a :href="Link">
+        <div class="Button">
+            <div class="details">
+                <img :src="Logo_url" alt="">
+                <div class="text">{{ Text }}</div>
+            </div>
         </div>
-    </div>
+    </a>
 </template>
 
 <style>
@@ -44,5 +47,9 @@ export default {
     font-style: normal;
     font-weight: 400;
     line-height: 160%;
+    border: none;
+}
+a {
+    text-decoration: none;
 }
 </style>
