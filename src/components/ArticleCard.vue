@@ -9,18 +9,21 @@ export default {
         image_url: String,
         title: String,
         date: String,
+        url: String,
         link: String
     }
 };
 </script>
 
 <template>
-    <div class="Card">
-        <div class="CardImage">
-            <img :src="image_url" alt="">
+    <a :href="url">
+        <div class="Card">
+            <div class="CardImage">
+                <img :src="image_url" alt="">
+            </div>
+            <ArticleCardDetail :title="title" :date="date" :link="link" />
         </div>
-        <ArticleCardDetail :title="title" :date="date" :link="link" />
-    </div>
+    </a>
 </template>
 
 <style>
