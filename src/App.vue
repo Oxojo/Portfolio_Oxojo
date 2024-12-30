@@ -19,9 +19,6 @@ import HeaderNavi from './components/HeaderNavi.vue';
 </template>
 
 <style scoped>
-.Component {
-  margin: 50px 0;
-}
 footer {
   position: absolute;
   right: 0;
