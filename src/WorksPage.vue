@@ -8,7 +8,7 @@ export default {
     data() {
         return {
             items: [
-                {image_url: "Oxojo_dev_thumbnail.png", title: "Oxojo.dev", url: "/works/01"}
+                {image_url: "Oxojo_dev_thumbnail.png", title: "Oxojo.dev", url: "/works/oxojo_dev"}
             ]
         }
     }   

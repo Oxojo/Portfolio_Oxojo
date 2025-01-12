@@ -33,7 +33,7 @@ export const routes = [
     component: WorksPage
   },
   {
-    path: '/works/01',
+    path: '/works/oxojo_dev',
     name: 'Oxojo.dev | Works',
     component: OxojoDevDetails
   }
