@@ -4,6 +4,7 @@ const ComingSoonPage = () => import('../ComingSoonPage.vue')
 const AboutMePage = () => import('../AboutMePage.vue')
 const ArticlePage = () => import('../ArticlesPage.vue')
 const WorksPage = () => import('../WorksPage.vue')
+const OxojoDevDetails = () => import('../components/Oxojo.devDetails.vue')
 
 export const routes = [
   {
@@ -30,6 +31,11 @@ export const routes = [
     path: '/works',
     name: 'Works',
     component: WorksPage
+  },
+  {
+    path: '/works/01',
+    name: 'Oxojo.dev | Works',
+    component: OxojoDevDetails
   }
 ]
 
