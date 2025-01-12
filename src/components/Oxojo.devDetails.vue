@@ -2,7 +2,7 @@
     <div class="PageContents">
         <div class="BaseInfo">
             <div class="BaseInfoImg">
-                <img src="../../Oxojo_dev_thumbnail.png" alt="">
+                <img src="https://www.oxojo.dev/Oxojo_dev_thumbnail.png" alt="">
             </div>
             <div class="BaseInfoText">
                 <div class="Name">Oxojo.dev</div>
