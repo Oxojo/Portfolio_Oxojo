@@ -39,6 +39,7 @@ export default {
     background: white;
     width: 210px;
     height: 35px;   
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.5);
 }
 .text {
     color: #000;
