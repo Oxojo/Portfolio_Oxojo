@@ -2,7 +2,8 @@ import { createRouter, createWebHistory } from 'vue-router'
 const TopPage = () => import('../TopPage.vue')
 const ComingSoonPage = () => import('../ComingSoonPage.vue')
 const AboutMePage = () => import('../AboutMePage.vue')
-//const ArticlePage = () => import('../ArticlesPage.vue')
+const ArticlePage = () => import('../ArticlesPage.vue')
+const WorksPage = () => import('../WorksPage.vue')
 
 export const routes = [
   {
@@ -20,11 +21,16 @@ export const routes = [
     name: 'About Me',
     component: AboutMePage
   },
-  /*{
+  {
     path: '/articles',
     name: 'Articles',
     component: ArticlePage
-  }*/
+  },
+  {
+    path: '/works',
+    name: 'Works',
+    component: WorksPage
+  }
 ]
 
 
