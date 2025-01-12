@@ -13,10 +13,10 @@ export default {
     data() {
         return {
             items: [
-                {imate_url: "../Oxojo_icon.png", title: "Test1", date: "1111-11-11", link: "example.com"},
-                {imate_url: "../Oxojo_icon.png", title: "Test2", date: "2222-22-22", link: "example.com"},
-                {imate_url: "../Oxojo_icon.png", title: "Test3", date: "3333-33-33", link: "example.com"},
-                {imate_url: "../Oxojo_icon.png", title: "Test4", date: "4444-44-44", link: "example.com"}
+                {image_url: "../Oxojo_icon.png", title: "Test1", date: "1111-11-11", link: "example.com"},
+                {image_url: "../Oxojo_icon.png", title: "Test2", date: "2222-22-22", link: "example.com"},
+                {image_url: "../Oxojo_icon.png", title: "Test3", date: "3333-33-33", link: "example.com"},
+                {image_url: "../Oxojo_icon.png", title: "Test4", date: "4444-44-44", link: "example.com"}
             ]
         }
     }   
