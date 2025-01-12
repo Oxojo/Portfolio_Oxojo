@@ -28,7 +28,7 @@
             </div>
             <a href="/comingsoon" class="ButtonLink">
                 <div class="ToWorksButton">
-                    <p>For details, Click here to access my works.</p>
+                    <p>詳細は, Works をご覧ください</p>
                 </div>
             </a>
             <div class="ContentDetail">
@@ -56,6 +56,7 @@
     border-radius: 10px;
     border: 1px solid #D9A90E;
     background: white;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.5);
 }
 .Contents {
     display: flex;
