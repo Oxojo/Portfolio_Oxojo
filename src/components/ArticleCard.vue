@@ -16,7 +16,7 @@ export default {
 </script>
 
 <template>
-    <a :href="url">
+    <a :href="url" style="text-decoration: none;">
         <div class="Card">
             <div class="CardImage">
                 <img :src="image_url" alt="">
@@ -29,7 +29,6 @@ export default {
 <style>
 .Card {
     width: 300px;
-    border-radius: 6px;
     border: 1px solid #DADADA;
 }
 .CardImage {
@@ -40,8 +39,10 @@ export default {
     background-color: #F7F7F7;
 }
 .CardImage img {
-    width: 100%;
-    height: 100%;
+    all: unset;
+    width: 99%;
+    height: 99%;
     object-fit: contain;
+    border: none;
 }
 </style>
