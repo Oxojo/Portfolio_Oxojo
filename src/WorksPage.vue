@@ -8,7 +8,7 @@ export default {
     data() {
         return {
             items: [
-                {image_url: "Oxojo_dev_thumbnail.png", title: "Oxojo.dev", url: "/works/oxojo_dev"}
+                {image_url: "Oxojo_dev_thumbnail.png", title: "Oxojo.dev"}
             ]
         }
     }   
@@ -23,7 +23,6 @@ export default {
             :key="index"
             :image_url="item.image_url"
             :title="item.title"
-            :url="item.url"
         />
     </div>
 </template>
