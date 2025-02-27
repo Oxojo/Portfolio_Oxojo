@@ -38,9 +38,8 @@ export const routes = [
     meta: {title: 'Works | Oxojo.dev'}
   },
   {
-    path: '/works/oxojo_dev',
-    name: 'Oxojo.dev | Works',
-    component: OxojoDevDetails
+    path: '/:catchall(.*)',
+    redirect: '/'
   }
 ]
 const Title = 'Oxojo.dev'
