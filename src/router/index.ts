@@ -10,27 +10,32 @@ export const routes = [
   {
     path: '/',
     name: 'Top',
-    component: TopPage
+    component: TopPage,
+    meta: {title: 'Top | Oxojo.dev'}
   },
   {
     path: '/comingsoon',
     name: 'Coming Soon',
-    component: ComingSoonPage
+    component: ComingSoonPage,
+    meta: {title: 'Coming Soon... | Oxojo.dev'}
   },
   {
     path: '/aboutme',
     name: 'About Me',
-    component: AboutMePage
+    component: AboutMePage,
+    meta: {title: 'About Me | Oxojo.dev'}
   },
   {
     path: '/articles',
     name: 'Articles',
-    component: ArticlePage
+    component: ArticlePage,
+    meta: {title: 'Articles | Oxojo.dev'}
   },
   {
     path: '/works',
     name: 'Works',
-    component: WorksPage
+    component: WorksPage,
+    meta: {title: 'Works | Oxojo.dev'}
   },
   {
     path: '/works/oxojo_dev',
@@ -38,9 +43,12 @@ export const routes = [
     component: OxojoDevDetails
   }
 ]
-
-
-export default createRouter({
+const Title = 'Oxojo.dev'
+const router = createRouter({
   history: createWebHistory(import.meta.env.VITE_BASE_URL),
   routes
 })
+router.afterEach((to, from) => {
+  document.title = to.meta.title || Title
+})
+export default router
