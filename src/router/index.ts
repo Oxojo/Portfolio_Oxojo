@@ -45,7 +45,7 @@ export const routes = [
 ]
 const Title = 'Oxojo.dev'
 const router = createRouter({
-  history: createWebHistory(import.meta.env.VITE_BASE_URL),
+  history: createWebHistory(),
   routes
 })
 router.afterEach((to, from) => {
