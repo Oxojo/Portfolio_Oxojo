@@ -26,7 +26,7 @@
             <div class="ContentTitle">
                 Interest
             </div>
-            <a href="/comingsoon" class="ButtonLink">
+            <a href="/works" class="ButtonLink">
                 <div class="ToWorksButton">
                     <p>詳細は, Works をご覧ください</p>
                 </div>

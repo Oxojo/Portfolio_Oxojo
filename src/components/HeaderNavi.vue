@@ -7,7 +7,7 @@ import HomeLink from './HomeLink.vue';
             <router-link to="/" class="Link"><HomeLink /></router-link>
             <div class="Menu">
                 <router-link to="/aboutme" class="Contents">About Me</router-link>
-                <router-link to="/comingsoon" class="Contents">Works</router-link>
+                <router-link to="/works" class="Contents">Works</router-link>
                 <router-link to="/comingsoon" class="Contents">Articles</router-link>
             </div>
         </div>
