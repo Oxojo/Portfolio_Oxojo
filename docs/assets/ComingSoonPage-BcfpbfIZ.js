@@ -1,0 +1,1 @@
+import{_ as e,c as n,d as s,o as t}from"./index-kWOjNz7z.js";const c={},a={class:"Coming"};function r(i,o){return t(),n("div",a,o[0]||(o[0]=[s("h1",{class:"ComingSoon"},"Coming Soon...",-1)]))}const m=e(c,[["render",r]]);export{m as default};
