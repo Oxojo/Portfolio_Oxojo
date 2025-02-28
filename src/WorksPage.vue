@@ -17,13 +17,13 @@ export default {
 
 <template>
     <h1 class="title">Works</h1>
-    <div class="Cards">
+    <div class="Cards" v-for="(item, index) in items">
+        <router-link :to="`/works/${item.title}`" style="text-decoration: none;">
         <WorksCard 
-            v-for="(item, index) in items"
             :key="index"
             :image_url="item.image_url"
-            :title="item.title"
-        />
+            :title="item.title">
+        </WorksCard></router-link>
     </div>
 </template>
 
