@@ -2,8 +2,7 @@
 export default {
     props: {
         image_url: String,
-        title: String,
-        url: String
+        title: String
     }
 };
 </script>

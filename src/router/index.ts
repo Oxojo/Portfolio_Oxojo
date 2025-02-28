@@ -4,7 +4,7 @@ const ComingSoonPage = () => import('../ComingSoonPage.vue')
 const AboutMePage = () => import('../AboutMePage.vue')
 const ArticlePage = () => import('../ArticlesPage.vue')
 const WorksPage = () => import('../WorksPage.vue')
-const OxojoDevDetails = () => import('../components/Oxojo.devDetails.vue')
+const WorksDetails = () => import('../WorksDetails.vue')
 
 export const routes = [
   {
@@ -38,17 +38,27 @@ export const routes = [
     meta: {title: 'Works | Oxojo.dev'}
   },
   {
-    path: '/works/oxojo_dev',
-    name: 'Oxojo.dev | Works',
-    component: OxojoDevDetails
+    path: '/works/:id',
+    component: WorksDetails,
+    props: true,
+    meta: {title: 'Works | Oxojo.dev'}
+  },
+  {
+    path: '/:catchall(.*)',
+    redirect: '/'
   }
-]
+];
 const Title = 'Oxojo.dev'
 const router = createRouter({
   history: createWebHistory(),
   routes
 })
+
 router.afterEach((to, from) => {
-  document.title = to.meta.title || Title
+  if (to.params.id) {
+    document.title = `${to.params.id} | Oxojo.dev`;
+  } else {
+    document.title = to.meta.title || Title
+  }
 })
 export default router
