@@ -18,8 +18,9 @@
                 Status
             </div>
             <div class="ContentDetail">
-                Science Tokyo B1 <br>
-                Belong to: traP, Tech-nation Records
+                Institute of Science Tokyo (2024.04-)<br>
+                Dept. of Mathematical and Computing Science (2025.04-)<br>
+                Belong to: traP (2024.04-), Tech-nation Records (2024.10-)
             </div>
         </div>
         <div class="Detail">
