@@ -1,7 +1,7 @@
 <template>
     <div class="Menu">
         <router-link to="/aboutme" class="Contents">About Me</router-link>
-        <router-link to="/comingsoon" class="Contents">Works</router-link>
+        <router-link to="/works" class="Contents">Works</router-link>
         <router-link to="/comingsoon" class="Contents">Articles</router-link>
     </div>
 </template>
