@@ -6,7 +6,7 @@ export default {
     data() {
         return {
             works: {
-                "Oxojo.dev" : {title: "Oxojo.dev", date: "2024/12-", comment: "Text", link: "https://www.oxojo.dev/Oxojo_dev_thumbnail.png"}
+                "Oxojo.dev" : {title: "Oxojo.dev", date: "2024/12-", comment: "Vue.js の勉強をするために作り始めたポートフォリオサイトです. 現在も細々と更新を続けています.", link: "https://www.oxojo.dev/Oxojo_dev_thumbnail.png"}
             }
         };
     },
